@@ -1,0 +1,230 @@
+* SPICE3 file created from comparator.ext - technology: scmos
+.include TSMC_180nm.txt
+.option scale=0.09u
+
+M1000 vdd b0 a_n152_n12# w_n158_4# CMOSP w=6 l=2
++  ad=2618 pd=1286 as=42 ps=26
+M1001 a_n62_n7# a_n57_n22# vdd w_n69_5# CMOSP w=6 l=2
++  ad=300 pd=132 as=0 ps=0
+M1002 a_n101_n152# a_n76_n138# vdd w_n120_n158# CMOSP w=10 l=2
++  ad=352 pd=150 as=0 ps=0
+M1003 a_n102_n12# a0 vdd w_n120_4# CMOSP w=6 l=2
++  ad=42 pd=26 as=0 ps=0
+M1004 a_478_n6# b3 a_490_n30# w_471_5# CMOSP w=6 l=2
++  ad=282 pd=130 as=126 ps=54
+M1005 s3 a_408_n98# vdd w_395_n104# CMOSP w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1006 a_408_n98# a_416_n121# a_408_n118# Gnd CMOSN w=8 l=2
++  ad=56 pd=30 as=64 ps=32
+M1007 a_n101_n152# a_n106_n138# vdd w_n120_n158# CMOSP w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1008 a_219_n92# a_248_n122# vdd w_202_n98# CMOSP w=10 l=2
++  ad=280 pd=116 as=0 ps=0
+M1009 a_219_n92# a_274_n122# a_250_n119# Gnd CMOSN w=10 l=2
++  ad=100 pd=40 as=240 ps=68
+M1010 a_114_n6# a1 vdd w_107_5# CMOSP w=6 l=2
++  ad=276 pd=128 as=0 ps=0
+M1011 a_151_n47# a_74_n12# a_126_n30# Gnd CMOSN w=7 l=2
++  ad=210 pd=86 as=166 ps=62
+M1012 gnd a_n57_n57# a_n61_n47# Gnd CMOSN w=8 l=2
++  ad=1722 pd=782 as=135 ps=66
+M1013 a_n151_n96# a_n127_n126# vdd w_n166_n102# CMOSP w=10 l=2
++  ad=422 pd=184 as=0 ps=0
+M1014 s2 a_219_n92# gnd Gnd CMOSN w=8 l=2
++  ad=48 pd=28 as=0 ps=0
+M1015 a_n44_n179# a_n49_n138# a_n70_n179# Gnd CMOSN w=10 l=2
++  ad=250 pd=70 as=240 ps=68
+M1016 s1 a_45_n95# gnd Gnd CMOSN w=5 l=2
++  ad=29 pd=22 as=0 ps=0
+M1017 s1 a_45_n95# vdd w_28_n101# CMOSP w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1018 vdd a_416_n121# a_408_n98# w_395_n104# CMOSP w=8 l=2
++  ad=0 pd=0 as=64 ps=32
+M1019 a_438_n12# a_431_n2# gnd Gnd CMOSN w=6 l=2
++  ad=48 pd=28 as=0 ps=0
+M1020 a_219_n92# a_274_n122# vdd w_202_n98# CMOSP w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1021 a_n151_n96# a_n153_n127# vdd w_n166_n102# CMOSP w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1022 a_n151_n96# a_n70_n126# vdd w_n166_n102# CMOSP w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1023 a_219_n92# a_216_n69# vdd w_202_n98# CMOSP w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1024 s3 a_408_n98# gnd Gnd CMOSN w=8 l=2
++  ad=48 pd=28 as=0 ps=0
+M1025 a_333_n47# b2 gnd Gnd CMOSN w=8 l=2
++  ad=210 pd=86 as=0 ps=0
+M1026 a_45_n95# a_127_n125# vdd w_28_n101# CMOSP w=8 l=2
++  ad=352 pd=150 as=0 ps=0
+M1027 a_n94_n123# a_n96_n126# a_n125_n123# Gnd CMOSN w=10 l=2
++  ad=240 pd=68 as=290 ps=78
+M1028 gnd b0 a_n152_n12# Gnd CMOSN w=6 l=2
++  ad=0 pd=0 as=48 ps=28
+M1029 gnd a_24_n12# a_115_n47# Gnd CMOSN w=8 l=2
++  ad=0 pd=0 as=135 ps=66
+M1030 a_n125_n123# a_n127_n126# a_n151_n123# Gnd CMOSN w=10 l=2
++  ad=0 pd=0 as=240 ps=68
+M1031 a_408_n118# a_402_n79# gnd Gnd CMOSN w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1032 vdd a_24_n12# a_114_n6# w_107_5# CMOSP w=6 l=2
++  ad=0 pd=0 as=0 ps=0
+M1033 a_45_n95# a_127_n125# a_102_n122# Gnd CMOSN w=10 l=2
++  ad=70 pd=34 as=250 ps=70
+M1034 a_n151_n96# a_n96_n126# vdd w_n166_n102# CMOSP w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1035 A_gr a_n101_n152# gnd Gnd CMOSN w=5 l=2
++  ad=29 pd=22 as=0 ps=0
+M1036 a_296_n6# a2 vdd w_289_5# CMOSP w=6 l=2
++  ad=282 pd=130 as=0 ps=0
+M1037 a_478_n6# a3 vdd w_471_5# CMOSP w=6 l=2
++  ad=0 pd=0 as=0 ps=0
+M1038 a_151_n47# b1 gnd Gnd CMOSN w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1039 a_n151_n96# a_n43_n126# a_n68_n123# Gnd CMOSN w=10 l=2
++  ad=70 pd=34 as=250 ps=70
+M1040 a_n101_n152# w0 vdd w_n120_n158# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1041 a_490_n30# a3 a_479_n47# Gnd CMOSN w=7 l=2
++  ad=166 pd=62 as=135 ps=66
+M1042 a_n25_n47# a_n102_n12# a_n50_n30# Gnd CMOSN w=7 l=2
++  ad=210 pd=86 as=166 ps=62
+M1043 a_45_n95# a_74_n125# vdd w_28_n101# CMOSP w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1044 a_76_n122# a_74_n125# a_45_n122# Gnd CMOSN w=10 l=2
++  ad=240 pd=68 as=290 ps=78
+M1045 s0 a_n151_n96# gnd Gnd CMOSN w=5 l=2
++  ad=29 pd=22 as=0 ps=0
+M1046 a_45_n122# a_42_n70# gnd Gnd CMOSN w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1047 a_408_n98# a_402_n79# vdd w_395_n104# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1048 a_n102_n12# a0 gnd Gnd CMOSN w=6 l=2
++  ad=48 pd=28 as=0 ps=0
+M1049 a_126_n30# a_74_n12# a_114_n6# w_107_5# CMOSP w=6 l=2
++  ad=132 pd=56 as=0 ps=0
+M1050 vdd a_206_n12# a_296_n6# w_289_5# CMOSP w=6 l=4
++  ad=0 pd=0 as=0 ps=0
+M1051 a_515_n47# a_438_n12# a_490_n30# Gnd CMOSN w=7 l=2
++  ad=210 pd=86 as=0 ps=0
+M1052 a_n101_n152# a_n49_n138# vdd w_n120_n158# CMOSP w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1053 a_n62_n7# b0 w0 w_n69_5# CMOSP w=7 l=2
++  ad=0 pd=0 as=154 ps=58
+M1054 a_256_n12# a_249_n2# vdd w_238_4# CMOSP w=6 l=2
++  ad=42 pd=26 as=0 ps=0
+M1055 a_308_n30# a2 a_297_n47# Gnd CMOSN w=7 l=2
++  ad=166 pd=62 as=135 ps=66
+M1056 A_gr a_n101_n152# vdd w_n120_n158# CMOSP w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1057 a_n70_n179# a_n76_n138# a_n101_n179# Gnd CMOSN w=10 l=2
++  ad=0 pd=0 as=290 ps=78
+M1058 vdd b2 a_206_n12# w_200_4# CMOSP w=6 l=2
++  ad=0 pd=0 as=42 ps=26
+M1059 vdd b3 a_388_n12# w_382_4# CMOSP w=6 l=2
++  ad=0 pd=0 as=42 ps=26
+M1060 a_256_n12# a_249_n2# gnd Gnd CMOSN w=6 l=2
++  ad=48 pd=28 as=0 ps=0
+M1061 a_n151_n96# a_n43_n126# vdd w_n166_n102# CMOSP w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1062 a_45_n95# a_42_n70# vdd w_28_n101# CMOSP w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1063 a_250_n119# a_248_n122# a_219_n119# Gnd CMOSN w=10 l=2
++  ad=0 pd=0 as=290 ps=78
+M1064 a_n101_n179# a_n106_n138# gnd Gnd CMOSN w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1065 gnd b3 a_388_n12# Gnd CMOSN w=6 l=2
++  ad=0 pd=0 as=48 ps=28
+M1066 a_45_n95# a_100_n125# vdd w_28_n101# CMOSP w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1067 a_219_n119# a_216_n69# gnd Gnd CMOSN w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1068 a_74_n12# a_67_n2# vdd w_56_4# CMOSP w=6 l=2
++  ad=42 pd=26 as=0 ps=0
+M1069 a_74_n12# a_67_n2# gnd Gnd CMOSN w=6 l=2
++  ad=48 pd=28 as=0 ps=0
+M1070 vdd b1 a_24_n12# w_18_4# CMOSP w=6 l=2
++  ad=0 pd=0 as=42 ps=26
+M1071 s0 a_n151_n96# vdd w_n166_n102# CMOSP w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1072 a_114_n6# b1 a_126_n30# w_107_5# CMOSP w=6 l=2
++  ad=0 pd=0 as=0 ps=0
+M1073 a_n25_n47# b0 gnd Gnd CMOSN w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1074 gnd a_388_n12# a_479_n47# Gnd CMOSN w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1075 w0 a_n102_n12# a_n62_n7# w_n69_5# CMOSP w=7 l=2
++  ad=0 pd=0 as=0 ps=0
+M1076 a_296_n6# b2 a_308_n30# w_289_5# CMOSP w=6 l=2
++  ad=0 pd=0 as=126 ps=54
+M1077 a_n151_n123# a_n153_n127# gnd Gnd CMOSN w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1078 a_308_n30# a_256_n12# a_296_n6# w_289_5# CMOSP w=6 l=2
++  ad=0 pd=0 as=0 ps=0
+M1079 a_490_n30# a_438_n12# a_478_n6# w_471_5# CMOSP w=6 l=2
++  ad=0 pd=0 as=0 ps=0
+M1080 gnd b2 a_206_n12# Gnd CMOSN w=6 l=2
++  ad=0 pd=0 as=48 ps=28
+M1081 a_n68_n123# a_n70_n126# a_n94_n123# Gnd CMOSN w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1082 vdd a_n152_n12# a_n62_n7# w_n69_5# CMOSP w=6 l=2
++  ad=0 pd=0 as=0 ps=0
+M1083 vdd a_388_n12# a_478_n6# w_471_5# CMOSP w=6 l=4
++  ad=0 pd=0 as=0 ps=0
+M1084 a_n50_n30# a_n57_n22# a_n61_n47# Gnd CMOSN w=7 l=2
++  ad=0 pd=0 as=0 ps=0
+M1085 s2 a_219_n92# vdd w_202_n98# CMOSP w=6 l=2
++  ad=30 pd=22 as=0 ps=0
+M1086 a_438_n12# a_431_n2# vdd w_420_4# CMOSP w=6 l=2
++  ad=42 pd=26 as=0 ps=0
+M1087 gnd b1 a_24_n12# Gnd CMOSN w=6 l=2
++  ad=0 pd=0 as=48 ps=28
+M1088 a_515_n47# b3 gnd Gnd CMOSN w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1089 gnd a_206_n12# a_297_n47# Gnd CMOSN w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1090 a_102_n122# a_100_n125# a_76_n122# Gnd CMOSN w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1091 a_n101_n152# w0 a_n44_n179# Gnd CMOSN w=10 l=2
++  ad=70 pd=34 as=0 ps=0
+M1092 a_333_n47# a_256_n12# a_308_n30# Gnd CMOSN w=7 l=2
++  ad=0 pd=0 as=0 ps=0
+M1093 a_126_n30# a1 a_115_n47# Gnd CMOSN w=7 l=2
++  ad=0 pd=0 as=0 ps=0
+C0 b3 Gnd 3.40fF
+C1 gnd Gnd 6.52fF
+C2 b1 Gnd 3.37fF
+C3 vdd Gnd 2.64fF
+C4 a_388_n12# Gnd 3.03fF
+C5 a_24_n12# Gnd 3.00fF
+C6 w_n120_n158# Gnd 3.03fF
+C7 w_202_n98# Gnd 2.43fF
+C8 w_28_n101# Gnd 3.01fF
+C9 w_n166_n102# Gnd 3.54fF
+C10 w_471_5# Gnd 2.76fF
+C11 w_289_5# Gnd 2.76fF
+C12 w_107_5# Gnd 2.76fF
+C13 w_n69_5# Gnd 2.76fF
+
+
+Vdd vdd gnd 2
+
+V_in_a a0 gnd DC 0
+V_in_b a1 gnd DC 0
+V_in_c a2 gnd DC 0
+V_in_d a3 gnd DC 0
+V_in_e b0 gnd DC 1
+V_in_f b1 gnd DC 0
+V_in_g b2 gnd DC 0
+V_in_h b3 gnd DC 0
+.tran 1u 100u
+
+
+
+
+.control
+run
+set color0 = rgb:f/f/e
+set color1 = black
+plot v(w0) 
+.endc
+.end

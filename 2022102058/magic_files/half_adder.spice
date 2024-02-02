@@ -1,0 +1,161 @@
+* SPICE3 file created from half_adder.ext - technology: scmos
+.include TSMC_180nm.txt
+.option scale=0.09u
+
+M1000 not_0/in xor_2/in_2 2nand_0/a_n21_1# Gnd CMOSN w=7 l=2
++  ad=70 pd=34 as=70 ps=34
+M1001 2nand_0/a_n21_1# cin gnd Gnd CMOSN w=7 l=2
++  ad=0 pd=0 as=1100 ps=576
+M1002 not_0/in xor_2/in_2 vdd 2nand_0/w_n39_17# CMOSP w=7 l=2
++  ad=126 pd=64 as=1272 ps=612
+M1003 vdd cin not_0/in 2nand_0/w_n39_17# CMOSP w=7 l=2
++  ad=0 pd=0 as=0 ps=0
+M1004 not_1/in a 2nand_1/a_n21_1# Gnd CMOSN w=7 l=2
++  ad=70 pd=34 as=70 ps=34
+M1005 2nand_1/a_n21_1# xor_1/in_1 gnd Gnd CMOSN w=7 l=2
++  ad=0 pd=0 as=0 ps=0
+M1006 not_1/in a vdd 2nand_1/w_n39_17# CMOSP w=7 l=2
++  ad=126 pd=64 as=0 ps=0
+M1007 vdd xor_1/in_1 not_1/in 2nand_1/w_n39_17# CMOSP w=7 l=2
++  ad=0 pd=0 as=0 ps=0
+M1008 not_0/out not_0/in gnd Gnd CMOSN w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1009 not_0/out not_0/in vdd not_0/w_n14_2# CMOSP w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1010 xor_0/2nand_3/in1 xor_0/2nand_2/in1 xor_0/2nand_0/a_n21_1# Gnd CMOSN w=7 l=2
++  ad=70 pd=34 as=70 ps=34
+M1011 xor_0/2nand_0/a_n21_1# b gnd Gnd CMOSN w=7 l=2
++  ad=0 pd=0 as=0 ps=0
+M1012 xor_0/2nand_3/in1 xor_0/2nand_2/in1 vdd xor_0/2nand_0/w_n39_17# CMOSP w=7 l=2
++  ad=126 pd=64 as=0 ps=0
+M1013 vdd b xor_0/2nand_3/in1 xor_0/2nand_0/w_n39_17# CMOSP w=7 l=2
++  ad=0 pd=0 as=0 ps=0
+M1014 xor_0/2nand_2/in1 m xor_0/2nand_1/a_n21_1# Gnd CMOSN w=7 l=2
++  ad=70 pd=34 as=70 ps=34
+M1015 xor_0/2nand_1/a_n21_1# b gnd Gnd CMOSN w=7 l=2
++  ad=0 pd=0 as=0 ps=0
+M1016 xor_0/2nand_2/in1 m vdd xor_0/2nand_1/w_n39_17# CMOSP w=7 l=2
++  ad=126 pd=64 as=0 ps=0
+M1017 vdd b xor_0/2nand_2/in1 xor_0/2nand_1/w_n39_17# CMOSP w=7 l=2
++  ad=0 pd=0 as=0 ps=0
+M1018 xor_0/2nand_3/in2 m xor_0/2nand_2/a_n21_1# Gnd CMOSN w=7 l=2
++  ad=70 pd=34 as=70 ps=34
+M1019 xor_0/2nand_2/a_n21_1# xor_0/2nand_2/in1 gnd Gnd CMOSN w=7 l=2
++  ad=0 pd=0 as=0 ps=0
+M1020 xor_0/2nand_3/in2 m vdd xor_0/2nand_2/w_n39_17# CMOSP w=7 l=2
++  ad=126 pd=64 as=0 ps=0
+M1021 vdd xor_0/2nand_2/in1 xor_0/2nand_3/in2 xor_0/2nand_2/w_n39_17# CMOSP w=7 l=2
++  ad=0 pd=0 as=0 ps=0
+M1022 xor_1/in_1 xor_0/2nand_3/in2 xor_0/2nand_3/a_n21_1# Gnd CMOSN w=7 l=2
++  ad=70 pd=34 as=70 ps=34
+M1023 xor_0/2nand_3/a_n21_1# xor_0/2nand_3/in1 gnd Gnd CMOSN w=7 l=2
++  ad=0 pd=0 as=0 ps=0
+M1024 xor_1/in_1 xor_0/2nand_3/in2 vdd xor_0/2nand_3/w_n39_17# CMOSP w=7 l=2
++  ad=126 pd=64 as=0 ps=0
+M1025 vdd xor_0/2nand_3/in1 xor_1/in_1 xor_0/2nand_3/w_n39_17# CMOSP w=7 l=2
++  ad=0 pd=0 as=0 ps=0
+M1026 not_1/out not_1/in gnd Gnd CMOSN w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1027 not_1/out not_1/in vdd not_1/w_n14_2# CMOSP w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1028 xor_1/2nand_3/in1 xor_1/2nand_2/in1 xor_1/2nand_0/a_n21_1# Gnd CMOSN w=7 l=2
++  ad=70 pd=34 as=70 ps=34
+M1029 xor_1/2nand_0/a_n21_1# a gnd Gnd CMOSN w=7 l=2
++  ad=0 pd=0 as=0 ps=0
+M1030 xor_1/2nand_3/in1 xor_1/2nand_2/in1 vdd xor_1/2nand_0/w_n39_17# CMOSP w=7 l=2
++  ad=126 pd=64 as=0 ps=0
+M1031 vdd a xor_1/2nand_3/in1 xor_1/2nand_0/w_n39_17# CMOSP w=7 l=2
++  ad=0 pd=0 as=0 ps=0
+M1032 xor_1/2nand_2/in1 xor_1/in_1 xor_1/2nand_1/a_n21_1# Gnd CMOSN w=7 l=2
++  ad=70 pd=34 as=70 ps=34
+M1033 xor_1/2nand_1/a_n21_1# a gnd Gnd CMOSN w=7 l=2
++  ad=0 pd=0 as=0 ps=0
+M1034 xor_1/2nand_2/in1 xor_1/in_1 vdd xor_1/2nand_1/w_n39_17# CMOSP w=7 l=2
++  ad=126 pd=64 as=0 ps=0
+M1035 vdd a xor_1/2nand_2/in1 xor_1/2nand_1/w_n39_17# CMOSP w=7 l=2
++  ad=0 pd=0 as=0 ps=0
+M1036 xor_1/2nand_3/in2 xor_1/in_1 xor_1/2nand_2/a_n21_1# Gnd CMOSN w=7 l=2
++  ad=70 pd=34 as=70 ps=34
+M1037 xor_1/2nand_2/a_n21_1# xor_1/2nand_2/in1 gnd Gnd CMOSN w=7 l=2
++  ad=0 pd=0 as=0 ps=0
+M1038 xor_1/2nand_3/in2 xor_1/in_1 vdd xor_1/2nand_2/w_n39_17# CMOSP w=7 l=2
++  ad=126 pd=64 as=0 ps=0
+M1039 vdd xor_1/2nand_2/in1 xor_1/2nand_3/in2 xor_1/2nand_2/w_n39_17# CMOSP w=7 l=2
++  ad=0 pd=0 as=0 ps=0
+M1040 xor_2/in_2 xor_1/2nand_3/in2 xor_1/2nand_3/a_n21_1# Gnd CMOSN w=7 l=2
++  ad=70 pd=34 as=70 ps=34
+M1041 xor_1/2nand_3/a_n21_1# xor_1/2nand_3/in1 gnd Gnd CMOSN w=7 l=2
++  ad=0 pd=0 as=0 ps=0
+M1042 xor_2/in_2 xor_1/2nand_3/in2 vdd xor_1/2nand_3/w_n39_17# CMOSP w=7 l=2
++  ad=126 pd=64 as=0 ps=0
+M1043 vdd xor_1/2nand_3/in1 xor_2/in_2 xor_1/2nand_3/w_n39_17# CMOSP w=7 l=2
++  ad=0 pd=0 as=0 ps=0
+M1044 cout not_2/in gnd Gnd CMOSN w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1045 cout not_2/in vdd not_2/w_n14_2# CMOSP w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1046 xor_2/2nand_3/in1 xor_2/2nand_2/in1 xor_2/2nand_0/a_n21_1# Gnd CMOSN w=7 l=2
++  ad=70 pd=34 as=70 ps=34
+M1047 xor_2/2nand_0/a_n21_1# xor_2/in_2 gnd Gnd CMOSN w=7 l=2
++  ad=0 pd=0 as=0 ps=0
+M1048 xor_2/2nand_3/in1 xor_2/2nand_2/in1 vdd xor_2/2nand_0/w_n39_17# CMOSP w=7 l=2
++  ad=126 pd=64 as=0 ps=0
+M1049 vdd xor_2/in_2 xor_2/2nand_3/in1 xor_2/2nand_0/w_n39_17# CMOSP w=7 l=2
++  ad=0 pd=0 as=0 ps=0
+M1050 xor_2/2nand_2/in1 cin xor_2/2nand_1/a_n21_1# Gnd CMOSN w=7 l=2
++  ad=70 pd=34 as=70 ps=34
+M1051 xor_2/2nand_1/a_n21_1# xor_2/in_2 gnd Gnd CMOSN w=7 l=2
++  ad=0 pd=0 as=0 ps=0
+M1052 xor_2/2nand_2/in1 cin vdd xor_2/2nand_1/w_n39_17# CMOSP w=7 l=2
++  ad=126 pd=64 as=0 ps=0
+M1053 vdd xor_2/in_2 xor_2/2nand_2/in1 xor_2/2nand_1/w_n39_17# CMOSP w=7 l=2
++  ad=0 pd=0 as=0 ps=0
+M1054 xor_2/2nand_3/in2 cin xor_2/2nand_2/a_n21_1# Gnd CMOSN w=7 l=2
++  ad=70 pd=34 as=70 ps=34
+M1055 xor_2/2nand_2/a_n21_1# xor_2/2nand_2/in1 gnd Gnd CMOSN w=7 l=2
++  ad=0 pd=0 as=0 ps=0
+M1056 xor_2/2nand_3/in2 cin vdd xor_2/2nand_2/w_n39_17# CMOSP w=7 l=2
++  ad=126 pd=64 as=0 ps=0
+M1057 vdd xor_2/2nand_2/in1 xor_2/2nand_3/in2 xor_2/2nand_2/w_n39_17# CMOSP w=7 l=2
++  ad=0 pd=0 as=0 ps=0
+M1058 sum xor_2/2nand_3/in2 xor_2/2nand_3/a_n21_1# Gnd CMOSN w=7 l=2
++  ad=70 pd=34 as=70 ps=34
+M1059 xor_2/2nand_3/a_n21_1# xor_2/2nand_3/in1 gnd Gnd CMOSN w=7 l=2
++  ad=0 pd=0 as=0 ps=0
+M1060 sum xor_2/2nand_3/in2 vdd xor_2/2nand_3/w_n39_17# CMOSP w=7 l=2
++  ad=126 pd=64 as=0 ps=0
+M1061 vdd xor_2/2nand_3/in1 sum xor_2/2nand_3/w_n39_17# CMOSP w=7 l=2
++  ad=0 pd=0 as=0 ps=0
+M1062 not_2/in not_1/out nand2_0/a_n1_7# nand2_0/w_n18_1# CMOSP w=4 l=4
++  ad=24 pd=20 as=36 ps=26
+M1063 nand2_0/a_n1_7# not_0/out vdd nand2_0/w_n18_1# CMOSP w=4 l=4
++  ad=0 pd=0 as=0 ps=0
+M1064 not_2/in not_0/out gnd Gnd CMOSN w=4 l=4
++  ad=36 pd=26 as=0 ps=0
+M1065 gnd not_1/out not_2/in Gnd CMOSN w=4 l=4
++  ad=0 pd=0 as=0 ps=0
+C0 cin Gnd 3.72fF
+C1 gnd Gnd 3.13fF
+C2 vdd Gnd 6.93fF
+
+
+Vdd vdd gnd 2
+
+V_in_a a gnd DC 0
+V_in_b b gnd DC 2
+V_in_c m gnd DC 2
+V_in_d cin gnd DC 2
+
+
+.tran 1u 100u
+
+
+
+
+.control
+run
+set color0 = rgb:f/f/e
+set color1 = black
+
+.end
+.endc

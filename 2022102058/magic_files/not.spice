@@ -1,0 +1,27 @@
+* SPICE3 file created from not.ext - technology: scmos
+.include TSMC_180nm.txt
+.option scale=0.09u
+
+M1000 out in gnd Gnd CMOSN w=8 l=2
++  ad=80 pd=36 as=88 ps=38
+M1001 out in vdd w_n14_2# CMOSP w=8 l=2
++  ad=80 pd=36 as=88 ps=38
+
+Vdd vdd gnd 2
+
+
+V_in_a in gnd DC 0
+
+
+.tran 1u 10000u
+
+
+
+
+.control
+run
+set color0 = rgb:f/f/e
+set color1 = black
+
+.endc
+.end

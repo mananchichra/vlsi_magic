@@ -1,0 +1,45 @@
+* SPICE3 file created from 4_or.ext - technology: scmos
+.include TSMC_180nm.txt
+.option scale=0.09u
+
+M1000 gnd in1 a_n61_13# Gnd CMOSN w=26 l=2
++  ad=1658 pd=382 as=1534 ps=326
+M1001 gnd in3 a_n61_13# Gnd CMOSN w=26 l=2
++  ad=0 pd=0 as=0 ps=0
+M1002 vdd in4 a_32_13# w_n74_5# CMOSP w=26 l=2
++  ad=402 pd=130 as=806 ps=114
+M1003 out a_n61_13# vdd w_96_7# CMOSP w=22 l=2
++  ad=242 pd=66 as=0 ps=0
+M1004 a_n7_13# in2 a_n46_13# w_n74_5# CMOSP w=26 l=2
++  ad=962 pd=126 as=962 ps=126
+M1005 gnd in4 a_n61_13# Gnd CMOSN w=26 l=2
++  ad=0 pd=0 as=0 ps=0
+M1006 a_32_13# in3 a_n7_13# w_n74_5# CMOSP w=26 l=2
++  ad=0 pd=0 as=0 ps=0
+M1007 out a_n61_13# gnd Gnd CMOSN w=22 l=2
++  ad=286 pd=70 as=0 ps=0
+M1008 gnd in2 a_n61_13# Gnd CMOSN w=26 l=2
++  ad=0 pd=0 as=0 ps=0
+M1009 a_n46_13# in1 a_n61_13# w_n74_5# CMOSP w=26 l=2
++  ad=0 pd=0 as=338 ps=78
+C0 w_n74_5# Gnd 6.58fF
+
+Vdd vdd gnd 2
+
+V_in_a in1 gnd DC 0
+V_in_b in2 gnd DC 0
+V_in_c in3 gnd DC 2
+V_in_d in4 gnd DC 0
+V_in_e in5 gnd DC 0
+.tran 1u 100u
+
+
+
+
+.control
+run
+set color0 = rgb:f/f/e
+set color1 = black
+
+.end
+.endc

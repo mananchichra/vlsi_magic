@@ -1,0 +1,41 @@
+* SPICE3 file created from 4nand.ext - technology: scmos
+.include TSMC_180nm.txt
+.option scale=0.09u
+
+
+M1006 out in4 vdd w_2_n52# CMOSP w=7 l=2
++  ad=147 pd=98 as=0 ps=0
+M1007 out in1 vdd w_2_n52# CMOSP w=7 l=2
++  ad=0 pd=0 as=0 ps=0
+M1008 out in3 vdd w_2_n52# CMOSP w=7 l=2
++  ad=0 pd=0 as=0 ps=0
+M1009 out in2 vdd w_2_n52# CMOSP w=7 l=2
++  ad=0 pd=0 as=0 ps=0
+M1010 out in4 a_49_n81# Gnd CMOSN w=6 l=2
++  ad=30 pd=22 as=96 ps=44
+M1011 a_15_n81# in1 gnd Gnd CMOSN w=6 l=2
++  ad=84 pd=40 as=0 ps=0
+M1012 a_49_n81# in3 a_31_n81# Gnd CMOSN w=6 l=2
++  ad=0 pd=0 as=96 ps=44
+M1013 a_31_n81# in2 a_15_n81# Gnd CMOSN w=6 l=2
++  ad=0 pd=0 as=0 ps=0
+
+
+Vdd vdd gnd 2
+
+V_in_a in1 gnd DC 2
+V_in_b in2 gnd DC 2
+V_in_c in3 gnd DC 2
+V_in_d in4 gnd DC 0
+.tran 1u 10000u
+
+
+
+
+.control
+run
+set color0 = rgb:f/f/e
+set color1 = black
+plot v(out) v(in1)+3 v(in2)+5 v(in3)+7
+.endc
+.end

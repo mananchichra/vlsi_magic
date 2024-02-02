@@ -1,0 +1,54 @@
+* SPICE3 file created from xor.ext - technology: scmos
+.include TSMC_180nm.txt
+.option scale=0.09u
+
+M1000 2nand_3/in1 2nand_2/in1 2nand_0/a_n21_1# Gnd CMOSN w=7 l=2
++  ad=70 pd=34 as=70 ps=34
+M1001 2nand_0/a_n21_1# in_2 gnd Gnd CMOSN w=7 l=2
++  ad=0 pd=0 as=224 ps=120
+M1002 2nand_3/in1 2nand_2/in1 vdd 2nand_0/w_n39_17# CMOSP w=7 l=2
++  ad=126 pd=64 as=280 ps=136
+M1003 vdd in_2 2nand_3/in1 2nand_0/w_n39_17# CMOSP w=7 l=2
++  ad=0 pd=0 as=0 ps=0
+M1004 2nand_2/in1 in_1 2nand_1/a_n21_1# Gnd CMOSN w=7 l=2
++  ad=70 pd=34 as=70 ps=34
+M1005 2nand_1/a_n21_1# in_2 gnd Gnd CMOSN w=7 l=2
++  ad=0 pd=0 as=0 ps=0
+M1006 2nand_2/in1 in_1 vdd 2nand_1/w_n39_17# CMOSP w=7 l=2
++  ad=126 pd=64 as=0 ps=0
+M1007 vdd in_2 2nand_2/in1 2nand_1/w_n39_17# CMOSP w=7 l=2
++  ad=0 pd=0 as=0 ps=0
+M1008 2nand_3/in2 in_1 2nand_2/a_n21_1# Gnd CMOSN w=7 l=2
++  ad=70 pd=34 as=70 ps=34
+M1009 2nand_2/a_n21_1# 2nand_2/in1 gnd Gnd CMOSN w=7 l=2
++  ad=0 pd=0 as=0 ps=0
+M1010 2nand_3/in2 in_1 vdd 2nand_2/w_n39_17# CMOSP w=7 l=2
++  ad=126 pd=64 as=0 ps=0
+M1011 vdd 2nand_2/in1 2nand_3/in2 2nand_2/w_n39_17# CMOSP w=7 l=2
++  ad=0 pd=0 as=0 ps=0
+M1012 out1 2nand_3/in2 2nand_3/a_n21_1# Gnd CMOSN w=7 l=2
++  ad=70 pd=34 as=70 ps=34
+M1013 2nand_3/a_n21_1# 2nand_3/in1 gnd Gnd CMOSN w=7 l=2
++  ad=0 pd=0 as=0 ps=0
+M1014 out1 2nand_3/in2 vdd 2nand_3/w_n39_17# CMOSP w=7 l=2
++  ad=126 pd=64 as=0 ps=0
+M1015 vdd 2nand_3/in1 out1 2nand_3/w_n39_17# CMOSP w=7 l=2
++  ad=0 pd=0 as=0 ps=0
+
+Vdd vdd gnd 2
+
+V_in_a in_1 gnd DC 0
+V_in_b in_2 gnd DC 0
+
+.tran 1u 10000u
+
+
+
+
+.control
+run
+set color0 = rgb:f/f/e
+set color1 = black
+plot v(out1) v(in_1)+3 v(in_2)+5 
+.endc
+.end

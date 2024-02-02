@@ -1,0 +1,29 @@
+* SPICE3 file created from nand2.ext - technology: scmos
+.include TSMC_180nm.txt
+.option scale=0.09u
+
+M1000 out in2 a_n1_7# w_n18_1# cmosp w=4 l=4
++  ad=24 pd=20 as=36 ps=26
+M1001 a_n1_7# in1 vdd w_n18_1# cmosp w=4 l=4
++  ad=0 pd=0 as=28 ps=22
+M1002 out in1 gnd Gnd cmosn w=4 l=4
++  ad=36 pd=26 as=52 ps=42
+M1003 gnd in2 out Gnd cmosn w=4 l=4
++  ad=0 pd=0 as=0 ps=0
+
+Vdd vdd gnd 2
+
+V_in_a in1 gnd PULSE(0 2 0us 100ps 100ps 5us 7us)
+V_in_b in2 gnd PULSE(0 2 0us 100ps 100ps 5us 7us)
+
+.tran 1u 100u
+
+
+.control
+run
+set color0 = rgb:f/f/e
+set color1 = black
+plot v(in1) v(in2)+2 v(out)+4
+
+.end
+.endc
